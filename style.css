@@ -281,6 +281,10 @@ body {
     transition: translateX 0.5s;
 }
 
+img {
+    mix-blend-mode: ;
+}
+
 .menu:hover .line-1,
 .menu:hover .line-3 {
     animation: menu-btn 0.5s alternate infinite;
@@ -526,6 +530,7 @@ body {
         grid-template-areas:
             "section-heading"
             "video";
+        padding-bottom: 15rem;
     }
 
     .left-about {
@@ -533,12 +538,8 @@ body {
     }
 
     .right-about {
-        padding: 0 5rem 10rem;
+        padding: 0 0.5rem 15rem;
     }
-
-    /* .right-about {
-        margin-bottom: clamp(10rem, 25%, 25rem);
-    } */
 
 }
 
